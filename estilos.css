@@ -1,0 +1,71 @@
+/* ===== General ===== */
+body {
+  margin: 0;
+  background-color: #f4f6fb;
+  color: #1b2440;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+h1, h2, h3, nav, figcaption, caption, th {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img { max-width: 100%; height: auto; }
+a { color: #1f3ae0; }
+a:focus { outline: 3px solid #1f3ae0; }
+
+/* ===== Cabecera y menú ===== */
+header {
+  background-color: #16213e;
+  color: #ffffff;
+  padding: 40px 6% 20px 6%;
+}
+header h1 { font-size: 3em; margin: 0 0 10px 0; }
+header p { color: #d9deff; margin: 0 0 20px 0; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav li { display: inline-block; margin: 0 20px 10px 0; }
+nav a { color: #ffffff; text-decoration: none; border-bottom: 2px solid #8a9bff; }
+nav a:hover { background-color: #2f4bff; }
+
+/* ===== Secciones ===== */
+section { padding: 40px 6%; }
+section > * { max-width: 800px; }
+h2 { font-size: 2em; margin-top: 0; }
+h3 { font-size: 1.3em; margin-bottom: 5px; }
+.oscura { background-color: #16213e; color: #ffffff; }
+.oscura a { color: #d9deff; }
+
+/* ===== Imágenes ===== */
+figure { margin: 20px 0; }
+figure img { border: 4px solid #e9dcc6; }
+figcaption { font-size: 0.85em; color: #4a5578; margin-top: 5px; }
+
+/* ===== Listas y artículos ===== */
+li { margin-bottom: 8px; }
+article {
+  border-top: 3px solid #8a9bff;
+  margin: 20px 0;
+  padding-top: 5px;
+}
+
+/* ===== Evolución ===== */
+ol { border-left: 4px solid #16213e; padding-left: 30px; }
+ol li { margin-bottom: 30px; }
+ol figure img { max-width: 320px; }
+
+/* ===== Tabla ===== */
+table { border-collapse: collapse; background-color: #ffffff; margin-top: 30px; width: 100%; max-width: 800px; }
+caption { font-weight: bold; font-size: 1.2em; text-align: left; padding: 10px 0; }
+th, td { border: 1px solid #c5cbe0; padding: 10px; text-align: left; vertical-align: top; }
+thead th { background-color: #d9deff; }
+
+/* ===== Pie ===== */
+footer { background-color: #e9dcc6; padding: 20px 6%; font-size: 0.9em; }
+footer p { margin: 0; max-width: 800px; }
+
+/* ===== Móvil ===== */
+@media (max-width: 600px) {
+  header h1 { font-size: 2.2em; }
+  ol { padding-left: 15px; }
+  table { font-size: 0.85em; }
+}
